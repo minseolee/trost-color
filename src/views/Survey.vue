@@ -71,6 +71,7 @@ export default {
       if (this.value !== 10) {
         this.value += 1;
       } else {
+        window.localStorage.setItem('userChoseArray', userChoseArray);
         window.localStorage.setItem('score', Math.round(score/10));
         router.push('/loading');
       }

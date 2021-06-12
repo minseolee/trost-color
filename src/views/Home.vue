@@ -21,7 +21,7 @@ import firebaseConfig from "../firebaseConfig";
 
 firebase.initializeApp(firebaseConfig);
 
-const db = firebase.database().ref('table/jj');
+const db = firebase.database().ref('table/userCount');
 
 export default {
   data() {
@@ -43,7 +43,7 @@ export default {
         let data = suc.val();
 
         firebase.database().ref('table').update({
-          jj: data,
+          userCount: data,
         });
 
         return data;
