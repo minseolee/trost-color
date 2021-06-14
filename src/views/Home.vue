@@ -5,6 +5,7 @@
     <img :src="imgSource.index1" alt="" style="width: 282px;" class="mb90 mt30" />
     <img :src="imgSource.index2" alt="" style="width: 282px;" class="mb90" />
     <p class="realtimeCount">현재 총 {{ this.countValue }}명이 참여했어요</p>
+    <p class="realtimeCount">참여하신 분 한 분당 500원의 후원금이 적립됩니다</p>
     <Button backgroundColor="#fd951d" text="테스트 시작하기" textColor="#ffffff" action="/survey" />
     <div class="forceMargin" />
     <WebShare backgroundColor="#ffffff" text="테스트 공유하기" textColor="#fd951d" />
@@ -58,6 +59,15 @@ export default {
 </script>
 
 <style>
+
+a {
+  text-decoration: none;
+}
+
+.container .button-container {
+  max-width: 720px;
+  margin: 0 auto;
+}
 
 .realtimeCount {
   margin-bottom: 8px !important;

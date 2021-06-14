@@ -6,7 +6,10 @@
       <b>오프라인 초대권 받기</b>
     </div>
     <a href="images/invitaion.png" download>
-      <img src="images/invitaion.png" alt="초대권 받기" style="display: none" class="invitaion-container" />
+      <img src="images/invitation.png" alt="초대권 받기" style="display: none" class="invitaion-container" />
+    </a>
+    <a href="https://trost.co.kr/">
+      <img src="images/footer.png" alt="푸터" style="display: none" class="footer-container" />
     </a>
   </div>
 </template>
@@ -17,6 +20,7 @@ export default {
     setHide() {
       document.getElementsByClassName('button-container')[0].classList.add('disappear');
       document.getElementsByClassName('invitaion-container')[0].classList.add('appear');
+      document.getElementsByClassName('footer-container')[0].classList.add('appear');
     }
   }
 };
