@@ -5,7 +5,7 @@
     <div class="button-container" @click="setHide">
       <b>오프라인 초대권 받기</b>
     </div>
-    <a href="images/invitaion.png" download>
+    <a href="images/invitation.png" download>
       <img src="images/invitation.png" alt="초대권 받기" style="display: none" class="invitaion-container" />
     </a>
     <a href="https://trost.co.kr/">
