@@ -23,7 +23,7 @@ import router from "./router";
 //     '                                                                          $$ |                                    \n' +
 //     '                                                                          $$/                                     ');
 //
-// console.log('https://www.github.com/minseolee');
+console.log('https://www.github.com/minseolee');
 export default {
   name: 'app',
   watch: {
