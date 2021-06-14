@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/trost-color/',
+  publicPath: '../../../../dist/promotion/color/',
   outputDir: 'docs'
 }
