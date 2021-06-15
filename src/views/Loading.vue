@@ -20,8 +20,8 @@ export default {
 
 <style scoped>
 .lottie-container {
-  width: calc(100% + 48px);
-  margin: 0 0 0 -24px;
+  /*width: calc(100% + 48px);*/
+  /*margin: 0 0 0 -24px;*/
   height: 100%;
   overflow: hidden;
   position: absolute;

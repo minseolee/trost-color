@@ -2,6 +2,9 @@
 
 <template>
   <div class="container">
+    <a href="https://trost.co.kr">
+      <img src="images/trost.png" alt="" class="trost-logo" />
+    </a>
     <img :src="imgSource.index1" alt="" style="width: 282px;" class="mb90 mt30" />
     <img :src="imgSource.index2" alt="" style="width: 282px;" class="mb90" />
     <p class="realtimeCount">현재 총 {{ this.countValue }}명이 참여했어요</p>
@@ -59,9 +62,18 @@ export default {
 
 <style>
 
-a {
-  text-decoration: none;
+.trost-logo {
+  width: 97px;
+  height: 26px;
+  display: block;
+  justify-content: center;
+  margin-top: 50px;
 }
+
+a {
+  text-decoration: none !important;
+}
+
 
 .container .button-container {
   max-width: 720px;

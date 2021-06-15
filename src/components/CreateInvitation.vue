@@ -45,6 +45,11 @@ export default {
   margin-top: 30px;
 }
 
+.footer-container {
+  width: calc(100% + 24px);
+  margin: 0 0 0 -12px;
+}
+
 .appear {
   animation: fade-in 1s;
   animation-fill-mode: forwards;
