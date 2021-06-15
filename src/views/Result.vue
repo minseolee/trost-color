@@ -28,7 +28,7 @@ import WebShare from "../components/WebShare";
 import CreateInvitation from "../components/CreateInvitation";
 import firebase from "firebase";
 
-const db = firebase.database().ref('table/jj');
+const db = firebase.database().ref('table/userCount');
 
 
 const computerSelectedColor = [
