@@ -27,6 +27,12 @@ console.log('https://www.github.com/minseolee');
 export default {
   name: 'app',
   watch: {
+    title: {
+      immediate: true,
+      handler() {
+        document.title = 'Trost-Event'
+      }
+    },
     '$route'(to) {
       if (to.path.indexOf('/loading') !== -1) {
         window.setTimeout(() => {
