@@ -10,7 +10,6 @@
 <script>
 import router from "./router";
 
-console.log(`ver: ${new Date()}`);
 console.log('https://www.github.com/minseolee');
 
 export default {
