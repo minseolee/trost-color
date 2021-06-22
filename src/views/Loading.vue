@@ -25,6 +25,8 @@ export default {
   height: 100%;
   overflow: hidden;
   position: absolute;
+  width: 100%;
   left: 0;
+  background-color: rgb(246,203,78);
 }
 </style>
