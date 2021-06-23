@@ -29,6 +29,7 @@
         <p class="title">알고 계셨나요?</p>
         <p class="subTitle">{{ resultContext0[resultValue+3] }}</p>
         <p class="title">참고문헌</p>
+        <p class="subTitle">어떠한 개인정보를 저장하거나 영리적인 이득을 취하지 않습니다.</p>
         <p class="subTitle">색체 심리학적 접근을 통한 배색교육에 관한 연구 -색체와 감정반응을 중심으로-, 최윤영, 국민대학교 교육대학원, 2008</p>
         <p class="subTitle">색체 심리학을 브랜딩에 적용하기, 김강령, brunch, 2019 https://brunch.co.kr/@thinkaboutlove/238</p>
         <p class="subTitle">인포그래픽으로 보는 색채 심리학 : 디자이너들을 위한 색상 가이드, 마루, designLog, 2013 https://www.designlog.org/2512445 [디자인로그(DESIGN LOG)]</p>
