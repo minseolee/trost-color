@@ -25,7 +25,7 @@ export default {
       if (to.path.indexOf('/loading') !== -1) {
         window.setTimeout(() => {
           router.push('/result');
-        }, 4500);
+        }, 4400);
       }
     }
   },
