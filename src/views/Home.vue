@@ -74,6 +74,9 @@ a {
   text-decoration: none !important;
 }
 
+.fullContainer {
+  margin-bottom: 40px;
+}
 
 .container .button-container {
   max-width: 720px;

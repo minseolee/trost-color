@@ -27,6 +27,7 @@ export default {
   position: absolute;
   width: 100%;
   left: 0;
+  margin-top: -40px !important;
   background-color: rgb(246,203,78);
 }
 </style>

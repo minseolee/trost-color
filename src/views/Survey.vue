@@ -130,10 +130,6 @@ export default {
 </script>
 
 <style scoped>
-  .container {
-    margin-top: 20px;
-  }
-
   .progrees-bar-left {
     float: right;
     right: 0;
