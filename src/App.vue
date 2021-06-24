@@ -27,6 +27,10 @@ export default {
           router.push('/result');
         }, 4400);
       }
+      if (!to.path.split('/')[1]) {
+        window.location.href = '/';
+      }
+      console.log(to.path);
     }
   },
 };
