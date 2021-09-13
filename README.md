@@ -1,24 +1,6 @@
-# trost-color
+https://brunch.co.kr/@trost/177
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+기획 - 이민서
+자료조사 - 이민서
+개발 VueJS + FireBase Realtime DB - 이민서
+운영 - 이민서
